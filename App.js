@@ -5,7 +5,8 @@ import { Fontisto, Ionicons, Feather, MaterialCommunityIcons, FontAwesome5 } fro
 import * as Location from "expo-location";
 
 const { width:SCREEN_WIDTH } = Dimensions.get('window');
-const API_KEY = "7707bfb9ef81532f7adceaca3bb13a33";
+import api_key from './api_key';
+const API_KEY = api_key;
 
 const icons = {
   Clouds: "cloudy",
